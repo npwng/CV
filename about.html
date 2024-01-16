@@ -12,21 +12,11 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/fadein.css" />
 		<link rel="stylesheet" href="assets/css/navbar.css" />
-	</head>
+		</head>
 	<body>
 
 			<div id="wrapper">
-				<header class="navHeader" id="navi">
-					<a href="index.html">Home</a>
-					<nav class="navbar">
-						<a href="#">one</a>
-						<a href="#">too</a>
-						<a href="#">thre</a>
-					</nav>
-				</header>
-				<header>
-				</header>
-
+				<div class=	"navbarPHold"></div>
 						<!-- Intro -->
 							<article id="intro" class="fade-in">
 								<h2 class="major">Intro</h2>
@@ -53,6 +43,8 @@
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/textfk.js"></script>
 			<script src="assets/js/navbar.js"></script>
-
+			<script>
+				generateNavbar(document.querySelector('.navbarPHold'));
+			</script>
 	</body>
 </html>

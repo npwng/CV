@@ -1,16 +1,19 @@
 .navHeader {
-    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
+}
+
+.navHeader .navline{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 100;
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
     text-decoration: none;
     font-size: 25px;
-    
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    z-index: 100;
+    left: 0;
 }
 
 .navbar a {
@@ -32,5 +35,6 @@ top: -100px; /* Move the navbar up by its height (adjust as needed) */
 }
 
 .navbarPading {
-    padding-bottom: 2em;
+    position: static;
+    padding-bottom: 1.5em;
 }

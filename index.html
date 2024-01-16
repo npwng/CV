@@ -17,14 +17,8 @@
 
 		<!-- Wrapper -->
 			<div id="wrapper">
-				<header class="navHeader">
-					<a href="index.html">Home</a>
-					<nav class="navbar">
-						<a href="#">one</a>
-						<a href="#">too</a>
-						<a href="#">thre</a>
-					</nav>
-				</header>
+				<div class=	"navbarPHold"></div>
+
 				<!-- Header -->
 					<header id="header">
 						<div class="content">
@@ -119,7 +113,9 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/textfk.js"></script>
+			<script src="assets/js/navbar.js"></script>
 			<script>
+				generateNavbar(document.querySelector('.navbarPHold'));
 				document.addEventListener('DOMContentLoaded', function() {
 					textfk(document.getElementById("textfk"))
 				}, false);
