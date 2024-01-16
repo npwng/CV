@@ -1,0 +1,36 @@
+.navHeader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    font-size: 25px;
+    
+}
+
+.navbar a {
+    margin-left: 40px;
+}
+
+#navi {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px 30px;
+    transition: top 0.3s; /* Add smooth transition for the top property */
+    box-sizing: border-box;
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5); /* Simulate additional bottom padding with box-shadow */
+}
+
+#navi.hidden {
+top: -100px; /* Move the navbar up by its height (adjust as needed) */
+}
+
+.navbarPading {
+    padding-bottom: 2em;
+}

@@ -1,0 +1,18 @@
+/* Define a class for the fading effect */
+.fade-in {
+    opacity: 0; /* Start with an opacity of 0 (completely transparent) */
+    filter: blur(10px);
+    animation: fadeIn 0.75s ease-in-out forwards; /* Use the fadeIn animation with a duration of 1.5 seconds */
+}
+
+  /* Define the fadeIn animation */
+@keyframes fadeIn {
+    from {
+      opacity: 0; /* Start with an opacity of 0 */
+        filter: blur(10px);
+    }
+    to {
+      opacity: 1; /* End with an opacity of 1 (fully visible) */
+        filter: blur(0);
+    }
+}
