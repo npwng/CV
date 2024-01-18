@@ -20,13 +20,11 @@ function textfk(container){
   const textContainer = container;
   const text = textContainer.getAttribute("data-text");
   textContainer.textContent = "";
-  console.log(text)
   let displayText = ""
 
   // Loop through each character in the text and append it to the container
   for (let i = 0; i < text.length+1; i++) {
     i += getRandomNumber(0,1)
-    console.log(i)
     setTimeout(() => {
         displayText = text.substring(0, i);
         if (text.length > i + 1){

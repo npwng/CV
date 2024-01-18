@@ -2,7 +2,10 @@
 const navbarData = [
   { label: 'Home', link: 'index.html' },
   { label: 'About', link: 'about.html' },
-  { label: 'Services', link: '#' },
+  { label: 'Education', link: 'education.html' },
+  { label: 'Experience', link: 'experience.html' },
+  { label: 'Skills', link: 'Skills.html' },
+  { label: 'Contact', link: 'contact.html' },
   // Add more items as needed
 ];
 // navbarGenerator.js
@@ -39,7 +42,6 @@ function generateNavbar(pageContainer) {
   navPadding.classList.add('navbarPading');
   navbarContainer.appendChild(navPadding);
 
-  console.log(navbarContainer)
   pageContainer.parentNode.replaceChild(navbarContainer, pageContainer);
 }
 
