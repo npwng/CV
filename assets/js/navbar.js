@@ -2,8 +2,7 @@
 const navbarData = [
   { label: 'Home', link: 'index.html' },
   { label: 'About', link: 'about.html' },
-  { label: 'Education', link: 'education.html' },
-  { label: 'Experience', link: 'experience.html' },
+  { label: 'CV', link: 'cv.html' },
   { label: 'Skills', link: 'Skills.html' },
   { label: 'Contact', link: 'contact.html' },
   // Add more items as needed

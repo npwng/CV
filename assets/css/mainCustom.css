@@ -5,3 +5,22 @@ table {
     border: one;
 }
 
+#colinear {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#colinear_center {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+#fig {
+    width: 15vw;
+    border-radius: 0.75em;
+	aspect-ratio: 1/1;
+}
+#cap{
+    font-size: 0.75em;
+}
