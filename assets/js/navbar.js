@@ -3,7 +3,7 @@ const navbarData = [
   { label: 'Home', link: 'index.html' },
   { label: 'About', link: 'about.html' },
   { label: 'CV', link: 'cv.html' },
-  { label: 'Skills', link: 'Skills.html' },
+  { label: 'Skills', link: 'skills.html' },
   { label: 'Contact', link: 'contact.html' },
   // Add more items as needed
 ];
